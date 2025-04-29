@@ -1,7 +1,7 @@
 # Let's getting started with kwokctl!
 kwokctl -c ./demo/logs.yaml create cluster
 
-# Create an nodes.
+# Create nodes.
 kwokctl scale node --replicas 2
 
 # Apply a deployment.
